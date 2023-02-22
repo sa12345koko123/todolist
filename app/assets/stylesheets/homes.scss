@@ -1,3 +1,40 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.content {
+  height: 10em;
+  position: relative；
+}
+
+.content p {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+.content button {
+    border: 4px solid #fa725a;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    color: #fa725a;
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+button:hover {
+ transform: scale(1.2) rotate(10deg);
+ background-color: #fa725a;
+ color: white;
+}
