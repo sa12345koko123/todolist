@@ -3,11 +3,7 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-import "./box2d.js"
-import "./ga.js"
-import "./Main.js"
-import "./protoclass.js"
-
+import "./vanilla-tilt.js"
 
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
